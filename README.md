@@ -1,11 +1,11 @@
-#0x19. C - Stacks, Queues - LIFO, FIFO
+# 0x19. C - Stacks, Queues - LIFO, FIFO
 
 Monty is a scripting language that first compiles into Monty byte codes, similar to Python. It operates on a unique stack and provides specific instructions to manipulate it. monty is an interpreter built specially for the said Monty Bytecodes files.
 
-##Compilation & Output
+## Compilation & Output
 To compile the code, use the following command: $ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty The output are to be printed on stdout (standard output), and any error message to be printed on stderr (standard error).
 
-##Monty Byte Code Files
+## Monty Byte Code Files
 Monty byte code files have the extension .m. Each file contains Monty byte codes with one instruction per line. The opcode and its argument can have any number of spaces before or after them. Blank lines are allowed, and any additional text after the opcode or its argument is ignored
 
 **Example**:
@@ -19,7 +19,7 @@ push 4
       push    6        
 pall
 
-###The Monty Program
+### The Monty Program
 The Monty program is used as follows:
 
 Usage: monty file
@@ -41,5 +41,5 @@ The Monty program executes the bytecodes line by line and stops under the follow
 
 If the program is unable to allocate memory using malloc, it will print the error message: Error: malloc failed
 
-#####Authors
+##### Authors
 Chiamaka Emeti
